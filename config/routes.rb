@@ -1,4 +1,5 @@
 Rails.application.routes.draw do
+  resources :products
   root "pages#home"
   get "catering", to: "pages#catering"
   get "info", to: "pages#info"
